@@ -1,0 +1,21 @@
+body {
+  font-family: copperplate;
+  font-size: 2vw;
+  border: solid rgb(255, 92, 250) 5px;
+  background-color:  rgb(255, 219, 254);
+  text-indent: 25px;
+}
+
+p{
+  color: rgb(255, 92, 250);
+  font-size:20px;
+  text-indent: 10px;
+}
+
+#second{
+  font-weight:normal;
+}
+
+h1{
+  color: rgb(255, 92, 250)
+}
