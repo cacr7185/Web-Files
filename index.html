@@ -1,41 +1,51 @@
 <!DOCTYPE html>
-<html>
+<html lang = "en">
 <head>
-    <section class="background-color">
-<title>Hello Me!</title>
+<title>Week 6</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Orienta">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bebas+Neue">
+</head>
 
-<link rel="stylesheet" href="style.css"
-
-<head/>
 <body>
-<h1>Camryn Crang</h1>
+  <section id="profile">
+    <h1>Camryn Crang</h1>
+    <img alt="picture of camryn" src="profile.jpeg" id="profileimg">
+  </section>
 
-<p id="second" <em>she / her</em> </p>
-
-</section>
-
-<section>
-  <h2>A Little Bit About Me:</h2>
+<section id="one">
+  <h2>About Me:</h2>
+  <p>Senior majoring in Strategy & Entrepreneurship with a minor in Creative Technology & Design</p>
   <ul>
-    <li>Senior majoring in business with a CTD minor</li>
-    <li>From Santa Barbara, California</li>
-    <li>Loves going on drives, cooking, and hanging with friends</li>
+    <li>Hometown: Santa Barbara, California</li>
+    <li>Coding Experience: none</li>
     <ul/>
-
 </section>
 
-<section>
-  <h3>My Goals For This Course:</h3>
-  <ol>
+
+<section id="two">
+  <h2>Goals For The Course:</h2>
+  <ul>
     <li>Gain a better understanding of HTML</li>
     <li>Build both an aesthetic and functioning website</li>
     <li>Learn something new and grow my skills</li>
-    <ol/>
+    <ul/>
 </section>
 
-<section>
-  <h4>My <a href="Encyclopedia Page/index.html"> Encyclopedia Page</a> </h4>
+<section id="three">
+  <h2>Check Out Some Of My Work:</h2>
+  <button id="mybutton">Project 1</button>
+  <button id="mybutton2">Project 2</button>
 </section>
+
+<script>
+  console.log("javascript working");
+  document.getElementById("mybutton").addEventListener("click", function(){alert("coming soon!")});
+  document.getElementById("mybutton2").addEventListener("click", function(){alert("coming soon!")});
+
+
+</script>
+
 </body>
 
 </html>
