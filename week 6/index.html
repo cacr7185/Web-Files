@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+  <title>Linked page</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bebas+Neue">
+  </head>
+
+<body>
+
+  <section id= "main">
+    <h1 id="qtext"> Click Orange Button To Reveal A Fact </h1>
+    <button id="fact">Fun Facts About Me</button>
+
+    </section>
+
+<section>
+  <h2 id= "header"> Press for Alert </h2>
+  <button id="otherbutton"> Click</button>
+  </section>
+
+
+
+<script>
+  const quotes =["21 years old", "favorite color is pink", "likes to cook", "likes long drives"];
+  let quotecount = 0;
+
+  document.getElementById("fact").addEventListener("click", buttonClicked);
+
+  function buttonClicked(){
+    console.log(quotes[quotecount]);
+    document.getElementById("qtext").innerHTML = quotes[quotecount];
+    if(quotecount>=3){
+      quotecount = 0;
+    }else{
+      quotecount++;
+    }
+  }
+
+document.getElementById("otherbutton").addEventListener("click", function(){alert("good job!")});
+
+</script>
+    </body>
+
+    </html>
