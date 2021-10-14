@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+  <title>Linked page</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Varela+Round">
+  </head>
+
+  <body>
+
+    <section id= "machine">
+      <h1 id="main"> Did you just get thrown on aux at a party? Don't sweat, click pink button for a song suggestion! </h1>
+
+
+      </section>
+
+      <section>
+        <h2 id="song"> What's on queue? </h2>
+        <button id="title">Fun Beats!</button>
+        </section>
+
+
+      <script>
+        const quotes =["Rumors - Lizzo", "All My Friends - Snakehips", "Good Nights - Whethan", "Carry Me - Kygo", "Girlfriend - Avril Lavigne", "One Less Lonely Girl - Justin Bieber", "Reply - Iyaz"];
+        let quotecount = 0;
+
+        document.getElementById("title").addEventListener("click", buttonClicked);
+
+        function buttonClicked(){
+          console.log(quotes[quotecount]);
+          document.getElementById("song").innerHTML = quotes[quotecount];
+          if(quotecount>=6){
+            quotecount = 0;
+          }else{
+            quotecount++;
+          }
+        }
+
+      </script>
+          </body>
+
+          </html>
