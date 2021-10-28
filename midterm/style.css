@@ -1,4 +1,4 @@
-h1, h2, p {
+h1, p {
 font-family: "Varela Round";
 }
 
@@ -7,6 +7,12 @@ h1{
   font-size: 40px;
   margin: 90px;
   postion: fixed;
+}
+
+h2{
+  font-family: "Patrick Hand";
+  color: white;
+  font-size: 50px;
 }
 
 p{
@@ -28,13 +34,15 @@ p{
   bottom: 75px;
 }
 
-/* #ideas h2{
+#ideas h2{
   margin: 150px;
   padding: 5px 30px;
   postion: fixed;
-} */
+}
 
 body {
+  padding: 0px;
+  margin: 0px;
   background-color: #BFA5A3;
 }
 
@@ -43,12 +51,18 @@ body {
   border-radius: 30px;
   font-size: 30px;
   border-color: white;
+  position: relative;
   font-family: "Varela Round";
 }
 
 #buttons button:hover{
   border: solid white 5px;
   color: white;
+}
+
+#buttons button:active{
+  background-color: white;
+  color: #BFA5A3;
 }
 
 
