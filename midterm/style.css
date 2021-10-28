@@ -1,0 +1,81 @@
+h1, h2, p {
+font-family: "Varela Round";
+}
+
+h1{
+  color: white;
+  font-size: 40px;
+  margin: 90px;
+  postion: fixed;
+}
+
+p{
+  color: white;
+  margin: 95px;
+  z-index: 1;
+  position: fixed; top: 0;
+  top: 20vh;
+  margin: 0 0 0 10vw;
+  bottom: 75px;
+}
+
+#title img{
+  width: 8vw;
+  z-index: 1;
+  position: fixed; top: 0;
+  top: 5vh;
+  margin: 0 0 0 33vw;
+  bottom: 75px;
+}
+
+/* #ideas h2{
+  margin: 150px;
+  padding: 5px 30px;
+  postion: fixed;
+} */
+
+body {
+  background-color: #BFA5A3;
+}
+
+#buttons button{
+  color: white;
+  border-radius: 30px;
+  font-size: 30px;
+  border-color: white;
+  font-family: "Varela Round";
+}
+
+#buttons button:hover{
+  border: solid white 5px;
+  color: white;
+}
+
+
+#monday {
+  background-color: #BF3E21;
+}
+
+#tuesday {
+  background-color: #F2AE72;
+}
+
+#wednesday {
+  background-color: #F2CD5E;
+}
+
+#thursday {
+  background-color: #F2A7A0;
+}
+
+#friday {
+  background-color: #ED7C63;
+}
+
+#saturday {
+  background-color: #8A4333;
+}
+
+#sunday {
+  background-color: #FFE9A6;
+}
