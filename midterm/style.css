@@ -2,11 +2,11 @@ h1, p {
 font-family: "Varela Round";
 }
 
-h1{
+ h1{
   color: white;
   font-size: 40px;
   margin: 90px;
-  postion: fixed;
+  /* position: fixed; */
 }
 
 h2{
@@ -48,6 +48,7 @@ body {
 
 #buttons button{
   color: white;
+  z-index: 1;
   border-radius: 30px;
   font-size: 30px;
   border-color: white;
