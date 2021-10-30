@@ -6,7 +6,9 @@ font-family: "Varela Round";
   color: white;
   font-size: 40px;
   margin: 90px;
-  /* position: fixed; */
+  left: 30px;
+
+
 }
 
 h2{
@@ -15,7 +17,7 @@ h2{
   font-size: 50px;
 }
 
-p{
+#title p{
   color: white;
   margin: 95px;
   z-index: 1;
@@ -37,7 +39,7 @@ p{
 #ideas h2{
   margin: 150px;
   padding: 5px 30px;
-  postion: fixed;
+  position: relative;
 }
 
 body {
@@ -45,6 +47,7 @@ body {
   margin: 0px;
   background-color: #BFA5A3;
 }
+
 
 #buttons button{
   color: white;
@@ -54,6 +57,7 @@ body {
   border-color: white;
   position: relative;
   font-family: "Varela Round";
+
 }
 
 #buttons button:hover{
