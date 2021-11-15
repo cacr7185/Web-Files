@@ -1,4 +1,35 @@
+@media screen and (max-width:700px) {
+  body {
+    font-size: .5rem;
+    color: black;
+  }
+}
 
+@media screen and (min-width: 699px) {
+  body {
+    font-size: 1rem;
+    color: white;
+  }
+}
+
+@media screen and (min-width: 699px) {
+  p {
+    font-size: .5rem;
+    color: black;
+  }
+}
+
+#container {
+  display: grid;
+  grid-template-columns: 5% auto;
+  grid-template-rows: 10% 80% 10%;
+  grid-template-areas: "sidebar" "header" "sidebar" "body" "sidebar" "footer";
+
+}
+
+#child-element {
+  grid-area: "footer";
+}
 body{
   color: #FFC187
 }
@@ -79,11 +110,12 @@ margin: 0 0 0 25vw;
 #three h2{
   font-size: 2vw;
   color: #E96136
+
 }
 
 #four h2{
   font-size: 5vw;
-  
+
 
 }
 
