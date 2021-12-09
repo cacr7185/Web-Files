@@ -15,8 +15,8 @@
     </section>
 
 <section>
-  <h2 id= "header"> Press for Alert </h2>
-  <button id="otherbutton"> Click</button>
+  <h2 id= "pictureoffood"> Click Orange Button To Reveal Photo </h2>
+  <button id="otherbutton"> Photo Button </button>
   </section>
 
 
@@ -37,7 +37,14 @@
     }
   }
 
-document.getElementById("otherbutton").addEventListener("click", function(){alert("good job!")});
+document.getElementById("otherbutton").addEventListener("click", showPicture);
+
+  function showPicture() {
+    var sourceOfPicture = "IMG_0816.jpg";
+    var img = document.getElementById("pictureoffood")
+    img.src = sourceOfPicture.replace('90x90', '225x225');
+    img.style.display = "block";
+  }
 
 </script>
     </body>
